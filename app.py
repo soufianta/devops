@@ -1,3 +1,3 @@
-import os
+import subprocess
 
-print(os.getenv("PATH"))
+print(subprocess.call(["cat", "/etc/os-release"]))
