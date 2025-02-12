@@ -1,2 +1,3 @@
-for i in "Hello":
-  print(i)
+import os
+
+print(os.getenv("PATH"))
