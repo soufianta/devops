@@ -1,5 +1,5 @@
 pipeline {
-    agent any  // Runs on any available agent
+    agent {label 'python_agent'}  // Runs on any available agent
     stages {
         stage('Clone Repository') {
             steps {
