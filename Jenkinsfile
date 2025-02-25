@@ -1,5 +1,5 @@
 pipeline {
-    agent {label 'python_agent'}  // Runs on any available agent
+    agent {label 'jenkins_agent'}
     stages {
         stage('Clone Repository') {
             steps {
